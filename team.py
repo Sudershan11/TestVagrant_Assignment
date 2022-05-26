@@ -4,15 +4,6 @@ class Team:
         self.name = name
         self.points = points
         self.last5 = last5
-        self.calcConsLosses()
-
-    # add points to team
-    def addPoints(self, points):
-        self.points += points
-
-    # add last 5 matches
-    def addLast5(self, last5):
-        self.last5 = last5
 
     # calc number of consecutive losses using last 5 matches
     def calcConsLosses(self):
